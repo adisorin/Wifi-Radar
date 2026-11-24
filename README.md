@@ -37,7 +37,6 @@ Distanțele sunt orientative. Pereții, mobila și orientarea antenei le pot sch
 Punctele de pe radar nu arată direcția reală a rețelei, ci doar o ajută să nu se suprapună unele peste altele.
 
 Creat de: Sorinescu Adrian
-
 #
 
 
@@ -78,4 +77,4 @@ The dots on the radar do not show the real direction of the network, they are ju
 
 
 Created by: Sorinescu Adrian
-
+#
