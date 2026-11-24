@@ -4,8 +4,6 @@
 📡 WIFI RADAR
 Un radar WiFi portabil care scanează rețelele din jur și le arată ca puncte pe un ecran, ca în filme.
 
-WIFI RADAR
-
 ✨ Ce face
 Scanează rețelele WiFi din jur
 Le arată pe un radar, cu distanță estimată pentru fiecare
@@ -39,3 +37,43 @@ Distanțele sunt orientative. Pereții, mobila și orientarea antenei le pot sch
 Punctele de pe radar nu arată direcția reală a rețelei, ci doar o ajută să nu se suprapună unele peste altele.
 
 Creat de: Sorinescu Adrian
+
+
+📡 WIFI RADAR
+A portable WiFi radar that scans nearby networks and shows them as dots on a screen, like in the movies.
+
+✨ What it does
+Scans nearby WiFi networks
+Shows them on a radar, with an estimated distance for each one
+Displays the TOP 5 closest networks, with name, distance, signal and channel
+Colors the dots by how close they are:
+🔴 close
+🟡 medium distance
+🟢 far
+It also has a radar in the browser, on phone or computer
+When you connect to it, the radar page opens automatically
+🛠️ What board it is
+LilyGO board with ESP32
+Color TFT screen, 170x320
+🎮 Buttons
+Button	What it does
+Left	Changes the radar range: 50m → 100m → 150m
+Right	Scans again, right now
+The screen shows at the bottom what each button does, so you don't forget.
+
+📐 Distances
+The distance is estimated from the signal strength:
+
+Signal	Distance
+Very strong	Under 1 m
+Strong	1 – 3 m
+Medium	12 m
+Weak	50 m
+Very weak	100 – 150 m
+Distances are approximate. Walls, furniture and antenna orientation can change them.
+
+The dots on the radar do not show the real direction of the network, they are just placed so they don't overlap each other.
+
+
+Created by: Sorinescu Adrian
+
